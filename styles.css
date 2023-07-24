@@ -1,1 +1,78 @@
-/*  your css code here. If applicable */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    height: max-content;
+    padding: 30px;
+    background-color:#011e29;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.container{
+    padding: 20px;
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.items{
+    
+    padding: 0;
+    background-color: aqua;
+    border: 1px solid #011e29;
+}
+
+.items1{
+
+    width: max-content;
+    height: max-content;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+    align-content: center;
+    border: none;
+}
+
+.items2{
+        width: max-content;
+        height: max-content;
+        padding: 40px;
+        background-color: white;
+        border-radius: 20px;
+        align-items: center;
+        align-content: center;
+        border: none;
+}
+
+.items3 {
+    width: 20%;
+    height: max-content;
+    overflow: hidden;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+    align-content: center;
+    border: none;
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img{
+  margin-bottom: 20px;
+  width: 300px;
+  height: 200px;
+}
+
