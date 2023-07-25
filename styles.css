@@ -13,6 +13,7 @@
     align-content: center;
     justify-content: center;
     font-size: 30px;
+	text-align: center;
 }
 
 .container{
@@ -32,7 +33,7 @@
     border: 1px solid #011e29;
 }
 
-.items1{
+.latest-news-section{
 
     width: max-content;
     height: max-content;
@@ -55,7 +56,7 @@
         border: none;
 }
 
-.items3 {
+.pictorial-news-section {
     width: 20%;
     height: max-content;
     overflow: hidden;
